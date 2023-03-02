@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Distribuidora</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 700px;
+        margin: 5rem auto;
+        padding: 1rem;
+      }
+      h3 {
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Percentual de vendas da distribuidora a rocha em cada estado</h1>
+
+    <div class="container">
+      <h3>São Paulo: R$67.836,43</h3>
+      <h3>Rio de Janeiro: R$36.678,66</h3>
+      <h3>Minas Gerais: R$29.229,88</h3>
+      <h3>Espirito Santo: R$27.165,48</h3>
+      <h3>Outros: R$19.849,53</h3>
+      <h3>Total: R$180.759,98</h3>
+    </div>
+    <canvas class="line-chart"></canvas>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
